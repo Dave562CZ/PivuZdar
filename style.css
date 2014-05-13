@@ -1,0 +1,112 @@
+/*
+Theme Name: PivuZdar
+Theme URI: http://wordpress.org/themes/pivuzdar
+Author: Ondřej Komár, David Richter
+Description: Šablona pro stránky pivuzdar.cz
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: pivuzdar
+*/
+
+/********************* IDs ************************/
+#page_container {
+	background-color: green;
+	width: 1000px;
+	margin: auto;
+	
+}
+
+#header {
+	background-color: yellow;
+	text-align: center;
+}
+
+#content {
+	background-color: gray;
+	width: 700px;
+	float: left;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+#paging {
+	background-color: orange;
+	text-align: center;
+}
+
+#sidebar {
+	background-color: aqua;
+	width: 300px;
+	margin-left: 700px;
+	margin-right: 0px;
+	margin_bottom: 0px;
+}
+
+#footer {
+	background-color: red;
+	clear: both;
+	text-align: center;
+}
+
+#akce {
+	background-color: purple;
+	width: 350px;
+	float: left;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+#pivo {
+	background-color: navy;
+	width: 350px;
+	margin-left: 350px;
+	margin-right: 0px;
+	margin_bottom: 0px;
+}
+/******************* CLASSES **********************/
+
+.post {
+	background-color: silver;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 12px;	
+}
+
+.post_title {
+	
+}
+
+.page_title {
+
+}
+
+.post_description {
+
+}
+
+.post_excerpt {
+
+}
+
+.page_content {
+
+}
+.post_rubrics {
+
+}
+
+/********************* TAGS ************************/
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin-bottom: 0px;
+	
+}
+
+/******************** OTHER ************************/
